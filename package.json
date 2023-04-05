@@ -1,0 +1,27 @@
+{
+  "name": "cssgallery",
+  "version": "1.0.0",
+  "description": "A test of CSS skills",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint 'src/*.css'",
+    "start": "npx http-server src",
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "cypress"
+  ],
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "stylelint": "^14.8.2",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-no-unsupported-browser-features": "^5.0.3",
+    "stylelint-selector-bem-pattern": "^2.1.1"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.0"
+  }
+}
